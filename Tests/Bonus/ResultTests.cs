@@ -15,12 +15,12 @@ public class ResultTests
 
         Result.Try(() => ResultExamples.ReturnsNumberOrThrowsSpecialException(true))
             .Check(x => Result.Combine(FirstCheck(x), SecondCheck(x)))
-            .TapError(err => Logger($"Check failed the first two validations: {err}"))
+            .TapError(err => Logger.Info($"Check failed the first two validations: {err}"))
             .MapError(err => $"Process was unsuccessful: {err}")
             .Map(x => $"Here is the success: {x}")
             .Match(
-                Logger, 
-                Logger);
+                Logger.LogSuccess,
+                Logger.LogFailure);
 
         #endregion
 
@@ -34,17 +34,28 @@ public class ResultTests
         ourResult.Should().SucceedWith(100);
     }
 
-    public Result FirstCheck(int arg)
-    {
-        return arg > 500 ? Result.Success() : Result.Failure("Number too small");
-    }
-    
-    public Result SecondCheck(int arg)
+    private Result FirstCheck(int arg)
     {
         return arg > 500 ? Result.Success() : Result.Failure("Number too small");
     }
 
-    public void Logger(string message)
+    private Result SecondCheck(int arg)
+    {
+        return arg > 500 ? Result.Success() : Result.Failure("Number too small");
+    }
+}
+
+static class Logger
+{
+    public static void LogSuccess(string message)
+    {
+    }
+
+    public static void LogFailure(string message)
+    {
+    }
+
+    public static void Info(string message)
     {
         
     }

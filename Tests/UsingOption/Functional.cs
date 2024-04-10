@@ -3,6 +3,8 @@ using NullAlternatives.Functional.UsingOption;
 
 namespace Tests.UsingOption;
 
+// Using Option type that was made in this repo
+
 public class Functional
 {
     [Test]

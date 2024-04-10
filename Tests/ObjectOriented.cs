@@ -1,5 +1,6 @@
 using NullAlternatives.ObjectOriented;
 using NullAlternatives.ObjectOriented.Inheritance;
+using NullAlternatives.ObjectOriented.NullObject;
 
 namespace Tests;
 
@@ -25,26 +26,12 @@ public class ObjectOriented
                 Name = "Physical Product",
                 Price = 10.00,
                 Weight = 50.00
-            }
+            },
+            new NullProduct()
         };
 
-        #region switch case problem
-
-        foreach (var product in products)
-        {
-            switch (product)
-            {
-                case PhysicalProduct physicalProduct:
-                    deliveryHandler.DeliverPhysicalProduct(physicalProduct);
-                    break;
-                case DigitalProduct digitalProduct:
-                    deliveryHandler.DeliverDigitalProduct(digitalProduct);
-                    break;
-            }
-        }
-
-        #endregion
-        
+        // Choosing this method over if / switch statements ensures we don't need to add a new case
+        // if we introduce a new Product type
         products.ForEach(p => p.Deliver(deliveryHandler));
         
         Assert.Pass();

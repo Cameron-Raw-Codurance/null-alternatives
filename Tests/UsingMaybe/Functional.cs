@@ -4,7 +4,7 @@ using NullAlternatives.Functional.UsingMaybe;
 
 namespace Tests.UsingMaybe;
 
-// Using CSharpFunctionalExtensions
+// Using CSharpFunctionalExtensions for the Maybe type rather than the Option type in this repo
 
 public class Functional
 {

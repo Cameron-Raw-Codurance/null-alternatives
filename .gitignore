@@ -1,3 +1,5 @@
 .idea
 NullAlternatives.sln.DotSettings.user
 global.json
+**/bin
+**/obj
