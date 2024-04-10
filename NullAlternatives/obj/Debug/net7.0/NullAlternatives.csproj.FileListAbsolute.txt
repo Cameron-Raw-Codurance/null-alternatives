@@ -1,0 +1,12 @@
+/Users/cameronraw/RiderProjects/NullAlternatives/NullAlternatives/bin/Debug/net7.0/NullAlternatives.deps.json
+/Users/cameronraw/RiderProjects/NullAlternatives/NullAlternatives/bin/Debug/net7.0/NullAlternatives.dll
+/Users/cameronraw/RiderProjects/NullAlternatives/NullAlternatives/bin/Debug/net7.0/NullAlternatives.pdb
+/Users/cameronraw/RiderProjects/NullAlternatives/NullAlternatives/obj/Debug/net7.0/NullAlternatives.csproj.AssemblyReference.cache
+/Users/cameronraw/RiderProjects/NullAlternatives/NullAlternatives/obj/Debug/net7.0/NullAlternatives.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cameronraw/RiderProjects/NullAlternatives/NullAlternatives/obj/Debug/net7.0/NullAlternatives.AssemblyInfoInputs.cache
+/Users/cameronraw/RiderProjects/NullAlternatives/NullAlternatives/obj/Debug/net7.0/NullAlternatives.AssemblyInfo.cs
+/Users/cameronraw/RiderProjects/NullAlternatives/NullAlternatives/obj/Debug/net7.0/NullAlternatives.csproj.CoreCompileInputs.cache
+/Users/cameronraw/RiderProjects/NullAlternatives/NullAlternatives/obj/Debug/net7.0/NullAlternatives.dll
+/Users/cameronraw/RiderProjects/NullAlternatives/NullAlternatives/obj/Debug/net7.0/refint/NullAlternatives.dll
+/Users/cameronraw/RiderProjects/NullAlternatives/NullAlternatives/obj/Debug/net7.0/NullAlternatives.pdb
+/Users/cameronraw/RiderProjects/NullAlternatives/NullAlternatives/obj/Debug/net7.0/ref/NullAlternatives.dll

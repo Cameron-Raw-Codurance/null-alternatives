@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "USD89f/1n6Xb6k9FYu3Rx9QJMm8NjLZhOnMhf9apGQNFsVGqkCK4ThtoJTebsji4sAT1Jb3qTTUhrTeephPV8w==",
+  "success": true,
+  "projectFilePath": "/Users/cameronraw/RiderProjects/NullAlternatives/NullAlternatives/NullAlternatives.csproj",
+  "expectedPackageFiles": [
+    "/Users/cameronraw/.nuget/packages/csharpfunctionalextensions/2.41.0/csharpfunctionalextensions.2.41.0.nupkg.sha512",
+    "/Users/cameronraw/.nuget/packages/fluentassertions/6.12.0/fluentassertions.6.12.0.nupkg.sha512",
+    "/Users/cameronraw/.nuget/packages/system.configuration.configurationmanager/4.4.0/system.configuration.configurationmanager.4.4.0.nupkg.sha512",
+    "/Users/cameronraw/.nuget/packages/system.security.cryptography.protecteddata/4.4.0/system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
